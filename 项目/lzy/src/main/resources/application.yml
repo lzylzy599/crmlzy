@@ -1,6 +1,6 @@
 ## 端口号 上下文路径
 server:
- port: 9898
+  port: 9898
   servlet:
     context-path: /crm
 ## 数据源配置
@@ -11,15 +11,15 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/crm?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
     username: root
     password: root
- freemarker:
-  suffix: .ftl
-  content-type: text/html
-  charset: UTF-8
-  template-loader-path: classpath:/views/
- devtools:
-  restart:
-   enabled: true
-   additional-paths: src/main/java
+  freemarker:
+   suffix: .ftl
+   content-type: text/html
+   charset: UTF-8
+   template-loader-path: classpath:/views/
+  devtools:
+   restart:
+    enabled: true
+    additional-paths: src/main/java
 ## mybatis 配置
 mybatis:
    mapper-locations: classpath:/mappers/*.xml
@@ -30,7 +30,7 @@ mybatis:
 pagehelper:
    helper-dialect: mysql
 ## 设置 dao 日志打印级别
- logging:
+logging:
    level:
     com:
      xxxx:
