@@ -47,6 +47,7 @@ layui.use(['form','jquery','jquery_cookie'], function () {
                         window.location.href=ctx+"/main";
                     })
                 }else{
+                    console.log(data)
                     layer.msg(data.msg);
                 }
             }

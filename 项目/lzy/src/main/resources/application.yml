@@ -17,6 +17,17 @@ spring:
    charset: UTF-8
    template-loader-path: classpath:/views/
   devtools:
+
+
+
+
+
+
+
+
+
+
+
    restart:
     enabled: true
     additional-paths: src/main/java
