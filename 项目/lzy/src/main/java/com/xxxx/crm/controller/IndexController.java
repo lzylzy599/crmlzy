@@ -7,6 +7,7 @@ package com.xxxx.crm.controller;
 
 @Controller
  public class IndexController extends BaseController {
+                @RequestMapping("index")
             public String index(){
             return "index";
           }
